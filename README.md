@@ -4,4 +4,3 @@ This project contains all of the VHDL codes for combinational circuits that I ha
 The outputs of the codes are as follows and the codes are provided in the respective repositories.
 
 ## 4-bit binary adder (with 1bit carry)
-![](Output-screenshots/4-bit%20Binary%20Adder.png)
