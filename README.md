@@ -5,5 +5,8 @@ The outputs of the codes are as follows and the codes are provided in the respec
 
 ## 4-bit binary adder (with 1bit carry)
 ![](Output-screenshots/4-bit-Binary-Adder(with-1bit-carry).png)
+## MUX (4 to 1)
+![](MUX%204%20to%201/MUX_4t1.png)
 ## NAND Gate (3 input)
 ![](Output-screenshots/NANDGate_three_input.png)
+
