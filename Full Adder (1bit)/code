@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Full_Adder_1bit is 
+port (
+       A, B, Cin : in std_logic; 
+       Sum, Cout : out std_logic 
+      ); 
+end Full_Adder_1bit;
+
+architecture Add of Full_Adder_1bit is
+begin
+	
+	Sum <= (A XOR B XOR Cin);
+	Cout <= (A AND B) OR (B AND Cin) OR (Cin AND A);
+
+end Add;
