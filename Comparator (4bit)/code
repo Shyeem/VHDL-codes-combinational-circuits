@@ -1,0 +1,23 @@
+--when A=B output is 1
+-- library declaration
+library IEEE;
+use IEEE.std_logic_1164.all;
+                                             
+-- entity
+entity Comparator_4bit is 
+
+port(  A, B   : in std_logic_vector(3 downto 0);     
+       Equals : out std_logic) ;                      
+
+end Comparator_4bit;      
+
+--Architecture
+--Dataflow description
+architecture dataflow of Comparator_4bit is
+
+   begin
+
+	Equals <= '1' when A=B else
+	'0';
+
+end dataflow;
