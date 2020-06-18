@@ -12,6 +12,8 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Comparator%20(4bit)/Comparator_4bit.png)
 ## Full Adder (1bit)
 ![](Full%20Adder%20(1bit)/Full_Adder_1bit.png)
+## MUX (2 to 1) [using all conditional methods(when, select, process, case)]
+![](MUX%202to1/MUX_2t1.png)
 ## MUX (4 to 1)
 ![](MUX%204%20to%201/MUX_4t1.png)
 ## NAND Gate (3 input)
