@@ -1,0 +1,23 @@
+--tri-state configuration
+--shows A when 00, B when 11 and 'Z' or "High Impedence" when others
+
+--library declaration
+library ieee;
+use ieee.std_logic_1164.all;
+
+--entity
+entity tristate is
+port( A,B  	 : in std_logic;
+      Control    : in STD_LOGIC_vector(1 downto 0);
+      Tri_out    : inout std_logic); -- inout for bi-directional tri-state
+				     -- signals or out for output only
+end tristate;
+
+--architecture
+architecture behavior of tristate is -- defines internal module architecture
+begin
+        with Control select     
+	Tri_out <= A when "00",
+		   B when "11",
+		   'Z' when others; -- Assignment of 'Z' value generates
+end behavior; 		            -- tri-state output
