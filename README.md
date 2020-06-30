@@ -17,6 +17,8 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ## MUX (4 to 1)
 ![](MUX%204%20to%201/MUX_4t1.png)
 ## MUX (8 to 1)
+#### 1. Using if-else
+#### 2. Using case and enable pin
 ![](MUX%208%20to1/MUx_8t1.png)
 ## NAND Gate (3 input)
 ![](Output-screenshots/NANDGate_three_input.png)
