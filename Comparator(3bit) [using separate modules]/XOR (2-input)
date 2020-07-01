@@ -1,0 +1,21 @@
+----------------------------------
+-- Description of XNOR function --
+----------------------------------
+
+-- library declaration
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+-- entity
+entity big_xnor is
+	Port ( A,B : in std_logic;
+	       F   : out std_logic);
+end big_xnor;
+
+
+-- architecture
+architecture ckt1 of big_xnor is
+begin
+	F <= not ( (A and (not B)) or ( (not A) and B) );
+end ckt1;
