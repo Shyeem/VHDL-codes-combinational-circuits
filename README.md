@@ -12,7 +12,7 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](Comparator%20(4bit)/Comparator_4bit.png)
 ## Comparator (3bit) 
 #### Separate modules are used which are called in main code.
-![](Comparator%20(4bit)/Comparator_4bit.png)
+![](Comparator(3bit)%20%5Busing%20separate%20modules%5D/Comparator_3bit_modules.png)
 ## Full Adder (1bit)
 ![](Full%20Adder%20(1bit)/Full_Adder_1bit.png)
 ## MUX (2 to 1) [using all conditional methods(when, select, process, case)]
