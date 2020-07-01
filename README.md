@@ -10,6 +10,9 @@ The outputs of the codes are as follows and the codes are provided in the respec
 ![](A%20Generic%20decoder%20circuit/generic_decoder_type.png)
 ## Comparator (4bit) (shows 1 when equal)
 ![](Comparator%20(4bit)/Comparator_4bit.png)
+## Comparator (3bit) 
+#### Separate modules are used which are called in main code.
+![](Comparator%20(4bit)/Comparator_4bit.png)
 ## Full Adder (1bit)
 ![](Full%20Adder%20(1bit)/Full_Adder_1bit.png)
 ## MUX (2 to 1) [using all conditional methods(when, select, process, case)]
